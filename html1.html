@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TictacToe</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+
+<body>
+    <h1>Lets play TikTacToe</h1>
+    <div id="bord">
+        <table>
+            <tr>
+                <td class="element" id="b1"><button onclick="func1(); myfunc();"></button></td>
+                <td class="element" id="b2"><button onclick="func2(); myfunc();"></button></td>
+                <td class="element" id="b3"><button onclick="func3(); myfunc();"></button></td>
+            </tr>
+            <tr>
+                <td class="element" id="b4"><button onclick="func4(); myfunc();"></button></td>
+                <td class="element" id="b5"><button onclick="func5(); myfunc();"></button></td>
+                <td class="element" id="b6"><button onclick="func6(); myfunc();"></button></td>
+            </tr>
+            <tr>
+                <td class="element" id="b7"><button onclick="func7(); myfunc();"></button></td>
+                <td class="element" id="b8"><button onclick="func8(); myfunc();"></button></td>
+                <td class="element" id="b9"><button onclick="func9(); myfunc();"></button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="turn">
+        <p id="printTurn"></p>
+    </div>
+    <div id="winner">
+        <p id="printwinner"></p>
+    </div>
+    <div id="restart">
+        <button onclick="funcRES()" id="res">RESTART</button>
+    </div>
+    <script src="js1.js"></script>
+</body>
+
+</html>
